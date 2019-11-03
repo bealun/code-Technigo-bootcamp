@@ -1,0 +1,63 @@
+/* Example styling of a h1 element */
+h1 {
+    color: #E982B9;
+    font-size: 36px;
+    border-bottom: 2px solid #2C044A;
+    text-align: center;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: #FAEBF3;
+    padding: 10px 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main {
+    min-height: 25em;
+}
+
+a {
+    color: #2C044A;
+    align-items: center;
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid #2C044A;
+    margin: 1em;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 2em;
+    color: #2C044A;
+    padding-top: 10px;
+}
+
+footer {
+    padding-top: 15em;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    body {
+        width: auto;
+        background-color: #F5E5D0;
+        margin: 30px 5px;
+    }
+
+    p {
+        margin: 5px;
+        width: auto;
+        color: black;
+    }
+
+    h1,
+    h2 {
+        color: black;
+        text-align: center;
+    }
+}
